@@ -1,0 +1,13 @@
+.content > * {
+    flex-basis: 100%;
+}
+
+.content {
+    border: soli;
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation {
+    border: soli;
+}
