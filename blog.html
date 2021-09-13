@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .blog-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
   <!--  Navigation -->
   <nav>
@@ -22,8 +33,6 @@
       <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
     </ul>
 
-
-
   </nav>
   <!-- /navigation -->
 
@@ -37,42 +46,107 @@
       </div>
     </header>
     <!-- /Header -->
-
+    
     <!-- Content -->
-    <main>
-      <div class="content">
-        <div class="columns">
-
-          <!-- column 1 -->
-          <div class="column">
-            <h3>HTML</h3>
-            <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
+    <div class="container mt-5">
+      <div class="blog-title mb-5">
+        <h2>Blog Post's</h2>
+      </div>
+      <div class="d-flex row row-cols-1 row-cols-md-3 g-4">
+        <!-- Column 5 -->
+        <div class="col">
+          <div class="card text-center bg-dark bg-gradient text-white border border-5 border-dark">
+            <div class="card-header">
+              <h5 class="card-title">Profession</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero totam cupiditate maiores laudantium, architecto assumenda rem nesciunt provident pariatur?</p>
+                <a href="profession.html" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
           </div>
-
-          <!-- column 3 -->
-          <div class="column">
-            <h3>CSS</h3>
-            <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
-          </div>
-
-          <!-- column 3 -->
-          <div class="column">
-            <h3>And More</h3>
-            <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
-          </div>
-
         </div>
-        <!-- / columns -->
-    </main>
-    <!-- /Content -->
+        
+        <!-- Column 4 -->
+        <div class="col">
+          <div class="card text-center bg-dark bg-gradient text-white border border-5 border-dark">
+            <div class="card-header">
+              <h5 class="card-title">First Feedback</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero totam cupiditate maiores laudantium, architecto assumenda rem nesciunt provident pariatur?</p>
+              <a href="feedback.html" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3 -->
+        <div class="col">
+          <div class="card text-center bg-dark bg-gradient text-white border border-5 border-dark">
+            <div class="card-header">
+              <h5 class="card-title">Programming Experience</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero totam cupiditate maiores laudantium, architecto assumenda rem nesciunt provident pariatur?</p>
+              <a href="exp.html" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Column 2-->
+        <div class="col">
+          <div class="card text-center bg-dark bg-gradient text-white border border-5 border-dark">
+            <div class="card-header">
+              <h5 class="card-title">SWOT-Analysis</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero totam cupiditate maiores laudantium, architecto assumenda rem nesciunt provident pariatur?</p>
+                <a href="swot.html" class="btn btn-primary" target="_blank">Read More</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+          </div>
+        </div>
+        
+        
+        
+        <!-- Column1-->
+        <div class="col">
+          <div class="card text-center bg-dark bg-gradient text-white border border-5 border-dark">
+            <div class="card-header">
+              <h5 class="card-title">Study Choice Activities</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero totam cupiditate maiores laudantium, architecto assumenda rem nesciunt provident pariatur?</p>
+                <a href="sca.html" class="btn btn-primary" target="_blank">Read More</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
 
+      </div>
+    </div>
+    
+    <!-- /Content -->
+    
     <!-- Footer -->
-    <footer>
-      <h1>Footer</h1>
+    <footer class="mt-5">
+      <p class="text-center text-muted" id="copyright">Copyright © 2021 Bashir Ahmed. All rights reserved.</p>
     </footer>
     <!-- /Footer -->
   </div>
   <!-- /Header+Main+footer -->
 
 </body>
+
 </html>
