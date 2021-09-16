@@ -67,7 +67,7 @@ nav {
   background-color: #42493a;
   color: #fff;
   position: fixed;
-  overflow: auto;
+  overflow: hidden;
   height: 100vh;
   width: 200px;
   display: flex;
