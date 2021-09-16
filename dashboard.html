@@ -1,151 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-  <!--  Navigation -->
-  <nav>
-    <div class="nav-title">
-      <h2>MENU</h2>
-    </div>
-    <ul class="nav-list">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-      <li class="nav-item"><a class="nav-link active" href="dashboard.html">Dashboard</a></li>
-      <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-      <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-    </ul>
-
-  </nav>
-  <!-- /navigation -->
-
-  <!-- Header+Main+footer -->
-  <div class="main">
-    <!-- Header -->
-    <header>
-      <img src="img/hz.png" alt="" class="hz-logo">
-      <div class="header-title">
-        <h1>Bashir Ahmed</h1>
+  <body>
+    <!--  Navigation -->
+    <nav>
+      <div class="nav-title">
+        <h2>MENU</h2>
       </div>
-    </header>
-    <!-- /Header -->
-    
-    <!-- content -->
-    <div class="container mt-5">
-      <h2 class="text-center mb-4">My Study Monitor</h2>
-      <div class="table-responsive table-bordered">
-        <table class="table table-hover table-dark table-striped table-success">
-          <thead>
-            <tr>
-              <th scope="col">Quartile</th>
-              <th scope="col">Courses</th>
-              <th scope="col">EC</th>
-              <th scope="col">Exam</th>
-              <th scope="col">Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowspan="3" rows>1</td>
-              <td>Programme and Career Orientation</td>
-              <td>2.5</td>
-              <td>Assesment</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Computer Science Basics</td>
-              <td>5</td>
-              <td>Written Exam</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Programming Basics</td>
-              <td>5</td>
-              <td>Case Study Exam</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Object Oriented Programming</td>
-              <td>10</td>
-              <td>Case Study &
-                Project</td>
-              <td>-</td>
-            </tr>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="dashboard.html">Dashboard</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+    <!-- /navigation -->
 
-            <tr>
-              <td rowspan="2">3</td>
-              <td>Framework Development 1</td>
-              <td>5</td>
-              <td>Case Study</td>
-              <td>-</td>
-            </tr>
+    <!-- Header+Main+footer -->
+    <div class="main">
+      <!-- Header -->
+      <header>
+        <img src="img/hz.png" alt="" class="hz-logo" />
+        <div class="header-title">
+          <h1>Bashir Ahmed</h1>
+        </div>
+      </header>
+      <!-- /Header -->
 
-            <tr>
-              <td>Framework Project 1 </td>
-              <td>7.5</td>
-              <td>Project, Assesment & Report</td>
-              <td>-</td>
-            </tr>
-            
+      <!-- content -->
+      <div class="container mt-5">
+        <h2 class="text-center mb-5">My Study Monitor</h2>
+        <h4>NBSA:</h4>
+        <div class="progress" data-label="0%" style="--width: 0"></div>
+        <div class="table-responsive table-bordered mt-5">
+          <table
+            class="table table-hover table-dark table-striped table-success"
+          >
+            <thead>
+              <tr>
+                <th scope="col">Quartile</th>
+                <th scope="col">Courses</th>
+                <th scope="col">EC</th>
+                <th scope="col">Exam</th>
+                <th scope="col">Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="3" rows>1</td>
+                <td>Programme and Career Orientation</td>
+                <td>2.5</td>
+                <td>Assesment</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Computer Science Basics</td>
+                <td>5</td>
+                <td>Written Exam</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Programming Basics</td>
+                <td>5</td>
+                <td>Case Study Exam</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Object Oriented Programming</td>
+                <td>10</td>
+                <td>Case Study & Project</td>
+                <td>-</td>
+              </tr>
 
-            <tr>
-              <td>4</td>
-              <td>Framework Project 2 </td>
-              <td>10</td>
-              <td>Portofolio, Project & Assesment</td>
-              <td>-</td>
-            </tr>
+              <tr>
+                <td rowspan="2">3</td>
+                <td>Framework Development 1</td>
+                <td>5</td>
+                <td>Case Study</td>
+                <td>-</td>
+              </tr>
 
-            <tr>
-              <td>Entire Year</td>
-              <td>Personal Professional Development</td>
-              <td>12.5</td>
-              <td>Portofolio</td>
-              <td>-</td>
-            </tr>
+              <tr>
+                <td>Framework Project 1</td>
+                <td>7.5</td>
+                <td>Project, Assesment & Report</td>
+                <td>-</td>
+              </tr>
 
-            <tr>
-              <td>Whenever</td>
-              <td>Personality 1</td>
-              <td>1.25</td>
-              <td>Portofolio</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Whenever</td>
-              <td>Personality 2</td>
-              <td>1.25</td>
-              <td>Portofolio</td>
-              <td>-</td>
-            </tr>
-          </tbody>
+              <tr>
+                <td>4</td>
+                <td>Framework Project 2</td>
+                <td>10</td>
+                <td>Portofolio, Project & Assesment</td>
+                <td>-</td>
+              </tr>
 
-        </table>
+              <tr>
+                <td>Entire Year</td>
+                <td>Personal Professional Development</td>
+                <td>12.5</td>
+                <td>Portofolio</td>
+                <td>-</td>
+              </tr>
+
+              <tr>
+                <td>Whenever</td>
+                <td>Personality 1</td>
+                <td>1.25</td>
+                <td>Portofolio</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Whenever</td>
+                <td>Personality 2</td>
+                <td>1.25</td>
+                <td>Portofolio</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
+
+      <!-- /content -->
+
+      <!-- Footer -->
+      <footer class="mt-5">
+        <p class="text-center text-muted" id="copyright">
+          Copyright © 2021 Bashir Ahmed. All rights reserved.
+        </p>
+      </footer>
+      <!-- /Footer -->
     </div>
-
-
-
-    <!-- /content -->
-
-    <!-- Footer -->
-    <footer class="mt-5">
-      <p class="text-center text-muted" id="copyright">Copyright © 2021 Bashir Ahmed. All rights reserved.</p>
-    </footer>
-    <!-- /Footer -->
-  </div>
-  <!-- /Header+Main+footer -->
-
-</body>
-
+    <!-- /Header+Main+footer -->
+  </body>
 </html>

@@ -6,7 +6,6 @@
 }
 
 body {
-  background-image: linear-gradient(45deg, #4ca1af, #c4e0e5);
   
   background-size: 400%;
   margin: 0;
@@ -36,6 +35,7 @@ Layout
 ======== */
 
 div.main {
+  background-image: linear-gradient(360deg, #4ca1af, #c4e0e5);
   margin-left: 200px;
   color: rgb(31, 16, 41);
 }
@@ -56,11 +56,11 @@ header {
   width: 200px;
   height: 200px;
   align-self: baseline;
-
 }
 
-
-
+#copyright {
+  font-size: 14px;
+}
 
 /* sidebar navigation*/
 nav {
@@ -75,6 +75,7 @@ nav {
 }
 .nav-title {
   text-align: center;
+  margin-top: 20px;
 }
 
 .nav-list .nav-item .nav-link {
@@ -86,8 +87,6 @@ nav {
   padding: 0px;
 }
 
-.nav-item {
-}
 
 .nav-link {
   color: #fff;
@@ -97,12 +96,11 @@ nav {
   padding: 16px;
 }
 
-
 .active {
   background-color: #686f60;
 }
 
-.nav-link:hover:not(.active) {  
+.nav-link:hover:not(.active) {
   background-color: #686f60;
 }
 
@@ -111,23 +109,47 @@ nav {
   margin-top: 110px;
   margin-left: 10px;
   align-self: flex-start;
-  
 }
 
 .aside-list {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
- 
 }
-
 
 .aside-link {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  cursor: pointer;
-
+  cursor: crosshair;
 }
 
-/** Main Content **/ 
+/** Progress bar **/
+
+.progress {
+  position: relative;
+  width: 500px;
+  height: 3rem;
+  background-color: #000;
+  border-radius: 1.5rem;
+  color: white;
+  align-items: center;
+}
+
+.progress::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: calc(var(--width, 0) * 1%);
+  min-width: 2em;
+  max-width: calc(100%-1rem);
+  background-color: #4ca1af;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
