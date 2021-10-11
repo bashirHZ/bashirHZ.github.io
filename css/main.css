@@ -1,135 +1,45 @@
+:root {
+  --main-color: #fcde67;
+  --secondary-color: #5bccf6;
+  --text-color: #030e12;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+  
 body {
-  background-size: 400%;
-  margin: 0;
-  padding: 0;
-  font-size: 21px;
-  height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--main-color);
+    font-family: 'Bodoni Moda', serif;
+    
 }
 
-/* ========
-Typography 
-======== */
-h1 {
-  font-size: 48px;
+main {
+  margin: 12rem auto;
 }
 
-h2 {
-  font-size: 36px;
+/* Navigation */
+.navbar-brand {
+  font-size: 24px;
 }
-
-h3 {
-  font-size: 28px;
-}
-
-/* ========
-Layout 
-======== */
-
-div.main {
-  background-image: linear-gradient(180deg, #4ca1af, #c4e0e5);
-  margin-left: 200px;
-  color: rgb(31, 16, 41);
-}
-header {
-  padding: 0px 0;
-  margin-right: 100px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.header-title {
-  align-self: center;
-}
-
-.hz-logo {
-  width: 200px;
-  height: 200px;
-  align-self: baseline;
-}
-
-#copyright {
-  font-size: 14px;
-}
-
-/* sidebar navigation*/
-nav {
-  background-color: #42493a;
-  color: #fff;
-  position: fixed;
-  overflow: hidden;
-  height: 100vh;
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-}
-.nav-title {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.nav-list .nav-item .nav-link {
-  display: block;
-  text-align: center;
-  list-style-type: none;
-}
-.nav-list {
-  padding: 0px;
-}
-
-
 .nav-link {
-  color: #fff;
-  text-decoration: none;
-  font-size: 25px;
-  cursor: pointer;
-  padding: 16px;
+  font-size: 18px;
 }
 
-.active {
-  background-color: #686f60;
+.footer {
+  background-color: var(--secondary-color);
 }
 
-.nav-link:hover:not(.active) {
-  background-color: #686f60;
-}
-
-/** Aside Menu **/
-.aside {
-  margin-top: 110px;
-  margin-left: 10px;
-  align-self: flex-start;
-}
-
-.aside-list {
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-}
-
-.aside-link {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: crosshair;
-}
 
 /** Progress bar **/
-
 .progress {
   position: relative;
   width: 500px;
   height: 3rem;
-  background-color: #000;
+  background-color: var(--text-color);
   border-radius: 1.5rem;
   color: white;
   align-items: center;
@@ -146,9 +56,8 @@ nav {
   width: calc(var(--width, 0) * 1%);
   min-width: 2em;
   max-width: calc(100%-1rem);
-  background-color: #4ca1af;
+  background-color: var(--main-color);
   border-radius: 1rem;
   padding: 1rem;
 }
-
 
