@@ -1,6 +1,6 @@
 :root {
-    --main-color: rgb(5, 150, 58);
-    --secondary-color: #5bccf6;
+    --main-color: #044ee2 ;
+    --secondary-color: #a5fa84;
     --text-color: #e7dfdd;
 }
 
@@ -18,6 +18,10 @@ body {
 
 main {
     margin: 12rem auto;
+}
+
+h1, .intro-p {
+    color: var(--text-color);
 }
 
 .hz-link {
@@ -39,6 +43,7 @@ main {
 /* FOOTER */
 .footer {
     background-color: var(--secondary-color);
+    
 }
 
 /** Progress bar **/
@@ -63,7 +68,7 @@ main {
     width: calc(var(--width, 0) * 1%);
     min-width: 2em;
     max-width: calc(100%-1rem);
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     border-radius: 1rem;
     padding: 1rem;
 }
